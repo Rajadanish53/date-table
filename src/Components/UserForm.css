@@ -1,0 +1,11 @@
+.form-control:focus{
+    box-shadow: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.form-control:focus::placeholder{
+    color: var(--primary-color);
+}
+.form-control{
+  
+}

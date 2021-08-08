@@ -1,0 +1,14 @@
+.nav-pills .show>.nav-link{
+    color: black;
+    background: var(--primary-color) !;
+}
+.nav-link{
+    color: black;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+.border-bottom,.modal-header,.modal-footer{
+    border: none !important;
+}
